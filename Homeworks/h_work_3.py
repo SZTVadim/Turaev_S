@@ -1,5 +1,3 @@
-# Python initiate
-
 name = "Сергей"
 city = "Пенза"
 
