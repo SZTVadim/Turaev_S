@@ -33,7 +33,7 @@ print(rep_string_5, "\n")
 string_6 = "Python программирование на Python"
 print(string_6.find("Python"))
 print(string_6.count("Python"))
-print(string_6.find("Java"),"\n")
+print(string_6.find("Java"), "\n")
 
 string_7 = "Hello123"
 string_7_1 = "12345"
@@ -42,7 +42,7 @@ string_7_3 = "   "
 print("Строка",  string_7, "Содержит и буквы и цифры? = ", string_7.isalnum())
 print("Строка",  string_7_1, "Содержит только цифры? = ", string_7_1.isdigit())
 print("Строка",  string_7_2, "Содержит только буквы? = ", string_7_2.isalpha())
-print("Строка",  string_7_3, "Содержит только пробелы? = ", string_7_3.isspace(),"\n")
+print("Строка",  string_7_3, "Содержит только пробелы? = ", string_7_3.isspace(), "\n")
 
 string_8 = "Python very good"
 print(string_8[0:3:])
