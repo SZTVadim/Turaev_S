@@ -45,11 +45,12 @@ print("Строка",  string_7_2, "Содержит только буквы? = 
 print("Строка",  string_7_3, "Содержит только пробелы? = ", string_7_3.isspace(), "\n")
 
 string_8 = "Python very good"
-print(string_8[0:3:])
-print(string_8[13::])
-print(string_8[1::2])
+print(string_8[0:3])
+print(string_8[-3:])
+print(string_8[::2])
 print(string_8[::-1], "\n")
 
-string_9 = "\"Привет\" \n"
-string_10 = "Первая строка \n Вторая строка"
+string_9 = "\"Он сказал: \"Привет\"\""
+string_10 = """\nПервая строка.
+Вторая строка"""
 print(string_9, string_10)
