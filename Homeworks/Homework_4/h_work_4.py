@@ -22,7 +22,7 @@ print(string_2.rstrip(), "\n")
 string_3 = "яблоко,банан,апельсин,груша"
 fructs = string_3.split(",")
 print(fructs)
-string_4 = "|".join(fructs)
+string_4 = " | ".join(fructs)
 print(string_4, "\n")
 
 string_5 = "Я изучаю Python. Python - это круто!"
@@ -51,6 +51,6 @@ print(string_8[::2])
 print(string_8[::-1], "\n")
 
 string_9 = "Он сказал: \"Привет\""
-string_10 = """Первая строка. Вторая строка"""
+string_10 = """Первая строка\nВторая строка"""
 print(string_9)
 print(string_10)
