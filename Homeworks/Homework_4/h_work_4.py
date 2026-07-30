@@ -50,7 +50,8 @@ print(string_8[-3:])
 print(string_8[::2])
 print(string_8[::-1], "\n")
 
-string_9 = "\"Он сказал: \"Привет\"\""
-string_10 = """\nПервая строка.
-Вторая строка"""
-print(string_9, string_10)
+string_9 = "Он сказал: \"Привет\""
+string_10 = """Первая строка. Вторая строка"""
+print(string_9)
+print(string_10)
+
