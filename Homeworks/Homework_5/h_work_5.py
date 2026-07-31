@@ -4,8 +4,8 @@ fruits.extend(["апельсин", "груша"])
 print(fruits)
 fruits.append("банан")
 print(fruits)
-fruits.insert(1,"виноград")
-print(fruits,"\n")
+fruits.insert(1, "виноград")
+print(fruits, "\n")
 
 fruits = ["яблоко", "банан", "апельсин", "банан"]
 print(fruits)
