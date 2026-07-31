@@ -26,7 +26,7 @@ string_4 = " | ".join(fructs)
 print(string_4, "\n")
 
 string_5 = "Я изучаю Python. Python - это круто!"
-rep_string_5 = (string_5.replace("Python", "Java"))
+rep_string_5 = string_5.replace("Python", "Java")
 print(string_5)
 print(rep_string_5, "\n")
 
@@ -51,6 +51,7 @@ print(string_8[::2])
 print(string_8[::-1], "\n")
 
 string_9 = "Он сказал: \"Привет\""
-string_10 = """Первая строка\nВторая строка"""
+string_10 = """Первая строка
+Вторая строка"""
 print(string_9)
 print(string_10)
