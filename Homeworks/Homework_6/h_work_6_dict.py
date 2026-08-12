@@ -1,15 +1,17 @@
 student = {
-    "name": 'ivan',
+    "name": "ivan",
     "age": 20,
     "course": 2,
-    "city": 'Moscow'
+    "city": "Moscow",
 }
 
 print(student.keys())
-print(student.values(), "\n")
+print(student.values())
+
 for key, value in student.items():
     print(key, value)
-for keys, value in student.items():
+
+for key, value in student.items():
     print(value)
 
 student_1 = {
