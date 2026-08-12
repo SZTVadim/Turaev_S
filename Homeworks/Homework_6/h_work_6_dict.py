@@ -6,11 +6,10 @@ student = {
 }
 
 print(student.keys())
-print(student.values(),"\n")
-
+print(student.values(), "\n")
 for key, value in student.items():
     print(key, value)
-for key, value in student.items():
+for keys, value in student.items():
     print(value)
 
 student_1 = {
@@ -18,7 +17,6 @@ student_1 = {
     "age": 20,
     "course": 2
 }
-
 student_2 = {
     "name": 'maria',
     "age": 21,

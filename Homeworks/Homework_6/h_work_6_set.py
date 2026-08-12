@@ -29,7 +29,7 @@ tuple2 = (4, 5, 6)
 numbers = [10, 20, 30, 40, 50]
 tup3 = tuple1 + tuple2
 print(tup3)
-tup4= tuple1 * 3
+tup4 = tuple1 * 3
 print(tup4)
 a, b, c = tuple1
 print(a)
@@ -47,7 +47,7 @@ print(last, "\n")
 numbers_tuple = tuple(numbers)
 print(numbers_tuple, "\n")
 
-even = tuple(x for x in range(11) if x % 2 == 0)
+even = tuple (x for x in range(11) if x % 2 == 0)
 print(even, "\n")
 
 sqrt = tuple (x ** 2 for x in range(1,6))
