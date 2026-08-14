@@ -11,7 +11,7 @@ print(student.values())
 for key, value in student.items():
     print(f"{key} : {value}")
 
-for key, value in student.values():
+for value in student.values():
     print(value)
 
 student_1 = {
