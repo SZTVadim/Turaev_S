@@ -13,8 +13,8 @@ print(fruits, "\n")
 fruits.discard("киви")
 print(fruits, "\n")
 
-#fruits.remove("киви")
-#print(fruits, "\n")
+# fruits.remove("киви")
+# print(fruits, "\n")
 
 fruits.pop()
 print(fruits, "\n")
