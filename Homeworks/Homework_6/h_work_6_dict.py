@@ -9,7 +9,7 @@ print(student.keys())
 print(student.values())
 
 for key, value in student.items():
-    print(key, value)
+    print(f"{key} : {value}")
 
 for key, value in student.items():
     print(value)

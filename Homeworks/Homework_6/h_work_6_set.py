@@ -47,10 +47,10 @@ print(last, "\n")
 numbers_tuple = tuple(numbers)
 print(numbers_tuple, "\n")
 
-even = tuple (x for x in range(11) if x % 2 == 0)
+even = tuple(x for x in range(11) if x % 2 == 0)
 print(even, "\n")
 
-sqrt = tuple (x ** 2 for x in range(1,6))
+sqrt = tuple(x ** 2 for x in range(1, 6))
 print(sqrt, "\n")
 
 single_tuple = 42
