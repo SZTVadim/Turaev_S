@@ -10,7 +10,7 @@ print(student.values(), "\n")
 
 for key, value in student.items():
     print(key, value)
-for _, value in student.items():
+for value in student.items():
     print(value)
 
 student_1 = {
