@@ -1,17 +1,16 @@
 student = {
-    "name": "ivan",
+    "name": 'ivan',
     "age": 20,
     "course": 2,
-    "city": "Moscow",
+    "city": 'Moscow'
 }
 
 print(student.keys())
-print(student.values())
+print(student.values(),"\n")
 
 for key, value in student.items():
-    print(f"{key} : {value}")
-
-for value in student.values():
+    print(key, value)
+for key, value in student.items():
     print(value)
 
 student_1 = {
@@ -19,19 +18,19 @@ student_1 = {
     "age": 20,
     "course": 2
 }
+
 student_2 = {
     "name": 'maria',
     "age": 21,
     "city": 'Saints_petersburg'
 }
 
-student_1.update(student_2)
-print(student_1, "\n")
+student_3 = student_1 | student_2
 
-student_3 = student_1.copy()
-student_3.update(student_2)
-print(student_3, "\n")
-
-print(student_1)
-print(student_2)
 print(student_3)
+
+student_1.update(student_2)
+
+print("student1:", student_1)
+print("student2:", student_2)
+print("student3:", student_3)
