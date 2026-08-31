@@ -6,7 +6,7 @@ student = {
 }
 
 print(student.keys())
-print(student.values(),"\n")
+print(student.values(), "\n")
 
 for key, value in student.items():
     print(key, value)
