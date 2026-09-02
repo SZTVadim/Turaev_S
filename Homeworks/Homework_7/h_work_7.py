@@ -16,8 +16,8 @@ print(fruits, "\n")
 # fruits.remove("киви")
 # print(fruits, "\n")
 
-fruits.pop()
-print(fruits, "\n")
+delfruits = fruits.pop()
+print(delfruits, "\n")
 
 
 coord = (10, 20, 30, 20, 10, 20, 40)
