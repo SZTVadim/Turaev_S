@@ -16,6 +16,7 @@ def start_session(browser, timeout, headless):
 config = {**browser, **options}
 
 
+
 result_def = start_session(**config)
 print(config)
 print(result_def)
