@@ -12,12 +12,13 @@ print(calculate_total(100, 20))
 print(calculate_total(100, 25))
 print(calculate_total(-50, 10), "\n")
 
+
 def get_level(points):
     if points >= 100:
         return "Эксперт"
-    if points >= 50:
+    elif points >= 50:
         return "Продвинутый"
-    if points >= 20:
+    elif points >= 20:
         return "Начинающий"
     else:
         return "Новичок"
@@ -26,26 +27,25 @@ def get_level(points):
 print(get_level(101))
 print(get_level(51))
 print(get_level(21))
-print(get_level(0),  "\n")
-
+print(get_level(0), "\n")
 
 
 def process_status(status):
     match status:
-        case "act":
+        case "active":
             return "Статус активен"
-        case "none_act":
+        case "inactive":
             return "Статус неактивен"
-        case "zhdun=)":
+        case "pending":
             return "Статус в ожидании"
-        case "bloc":
+        case "blocked":
             return "Статус заблокирован"
         case _:
             return "Неизвестный статус"
 
 
-print(process_status("act"))
-print(process_status("none_act"))
-print(process_status("zhdun=)"))
-print(process_status("bloc"))
+print(process_status("active"))
+print(process_status("inactive"))
+print(process_status("pending"))
+print(process_status("blocked"))
 print(process_status("unknown"))
